@@ -23,8 +23,12 @@ def main():
     
     #put your age here
     age = 
-    print("I'm " + name + " and i'm " + age + " years old")
-
-
+    print("I'm " + name + " and i'm " + str(age) + " years old")
+    
+    #there's a weird error here........
+    userAge = input("Enter your name: ")
+    print("Your name is " + val)
+ 
+   
 
 main()
