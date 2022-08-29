@@ -2,8 +2,8 @@
 #Fix any syntax errors you can spot and fulfill any other requests
 def main():
     print(hello)
-    print(3)
-    print(10 + 10)
+    int(3)
+    sum(10 + 10)
 
 
     #insert your name in this string below
