@@ -5,12 +5,7 @@
 
 
 def main():
-print("Hello World")
-color = ("red")
-print("My favorite color is ", color)
-birthday = ("102104")
-print("My birthday is: ", birthday)
-    
+
 
 
     
