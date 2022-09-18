@@ -21,5 +21,9 @@ def main():
   
   #do each of the four equations with different numbers each time.
   
+  #now replace two of the numbers in the list with a different number (using name of list[x] = ?, not rewriting the fiveNumber list)
+  
+  #print out the list
+  
   
 main()
