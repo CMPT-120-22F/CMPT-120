@@ -14,12 +14,18 @@ def main():
         print("That's not right!")
     elif name == "Sami":
         print("dude it's not that hard")
+    elif name == "samual":
+        print("I'll give you a hint: there's a capital S")
+    elif name == "sami":
+        print("Case sensitivity is important!")
+    elif name == "Samuel":
+        print("You got it! Congrats:")
     #etc etc, the else can be whatever you want
     
     
     #we're gonna check if a user input number is even
     #pick any number
-    even = input(int("Enter a number to find out if its even or odd"))
+    even = input("Enter a number to find out if its even or odd")
     even = int(even)
     #what do we replace the question marks with?
     if even % 2 == 0:
@@ -44,7 +50,7 @@ def main():
     
     #Here's a fun one: This is a list of everyone's name. Find where yours is and print the index of your name
     students = ["Achorn, Cameron", "Brown, Evan", "Catalano, Alexander", "Cianfoni, Alexander", "Delorey, Tyler","Edmonds, Jonah","Elliott, Dustin","Faix, Joseph","Fleischman, Connor","Fuerte, Caroline","Gidos, Hannah","Lavitt, Samuel","Lichstein, Harris","Longo, Nicholas","Martinez, David","Muggeri, Mattia","Munger, Ryan","Nealon, Ryan","Paulus, Natalie","Penn, Riley","Potenza, Amanda","Prochet, Carlisl","Putkaradze, Saba","Quayson, Eugene","Rietti, Cristina","Seeley, Shane","Sweeney, Quinn","Tata, Mathew","Taylor, Julia","Tuozzo, Michael"]
-    print(students[20])
+    print(students[11])
 main()
     
     
