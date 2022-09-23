@@ -37,6 +37,11 @@ def main():
         if ? == ?:
             print("found")
     
+    numbers = [1,2,3,4,5,6,7,8,9,10]
+    #you could print out the list using print(numbers) OR you could go the long way and use a for loop to print out the value of each index :)
+    for x in ?:
+        print(?[?])
+    
     #what if I wanted you to print out only the even numbers in this range I made?
     for x in range (20, 501):
         #i feeeeel like modulooooooo is neededddd
