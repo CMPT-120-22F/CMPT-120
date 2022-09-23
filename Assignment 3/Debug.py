@@ -23,6 +23,23 @@ def main():
     while (endless < 5):
         print("I'm stuck in this loop!!!!")
     
+    #print out your last name one letter at a time
+    for x in "":
+        print(?)
+       
+     #aw i suck i made another infinite loop.. use that thing I taught you about to get out once it prints once... starts with a b... br....
+    found == False    
+    while found == False:
+        print("i only printed once")
+        
+    #can you fill this out so that it prints found when it hits the letter r?
+    for x in "Marist":
+        if ? == ?:
+            print("found")
     
+    #what if I wanted you to print out only the even numbers in this range I made?
+    for x in range (20, 501):
+        #i feeeeel like modulooooooo is neededddd
+        if
     
 main()
