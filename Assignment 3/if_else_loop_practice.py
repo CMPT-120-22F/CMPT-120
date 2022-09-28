@@ -12,6 +12,7 @@ else (the number is less than 5)
 
 def main():
     list = [41, 23, 6, 14, 7, 46, 43, 15]
-    
+    for i in range(0, len(list)):
+        
     
 main()
