@@ -37,7 +37,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.Debug">
+  <component name="RunManager">
     <configuration name="Assignment 2.5 Debug" type="PythonConfigurationType" factoryName="Python">
       <module name="CMPT-110" />
       <option name="INTERPRETER_OPTIONS" value="" />
