@@ -102,8 +102,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Debug" />
       <item itemvalue="Python.Assignment 2.5 Debug" />
+      <item itemvalue="Python.Debug" />
       <item itemvalue="Python.main" />
     </list>
   </component>
