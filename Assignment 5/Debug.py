@@ -19,8 +19,20 @@ def main():
         print("Letters and numbers!")
     else:
         print("weird characters :(")
+       
+    #good working example
+    asterisk = input("Enter an asterisk please")
+    if asterisk == "*":
+        print("good!")
+    else:
+        print("not asterisk :(")
         
+    #now write code to check if the input was either an asterisk OR an ampersand (&)
+    
         
     #do the live example we did in class: ask user to input an integer, but before you cast it to an int, check that it's an integer before doing your variable = int(variable) command
+    
+    # last challenge: find out how to check if the string input has the substring "marist"
+    #google this one ;) substring is the key google term
     
 main()
