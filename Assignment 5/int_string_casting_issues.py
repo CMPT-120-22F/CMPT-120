@@ -7,7 +7,16 @@ hint: there's try/catch statements that i didn't teach but is somewhat straightf
 You can also go much much simpler if you want to, I just want you guys to keep practicing your google skills
 and ofc, if you're stuck, don't hesitate to email
 '''
+
+import re
+
 def main():
-    intInput = int(input("Enter an int (but enter a string to see the error)"))
-    
+    intInput = input("Enter an int (but enter a string to see the error)")
+    if intInput == "" or intInput.isalpha():
+        intInput = "0"
+    z = int(re.sub("\D", "", intInput))
+    print(z)
+
+    #I believe this is as condensed as it can be while considering any possible input
+
 main()

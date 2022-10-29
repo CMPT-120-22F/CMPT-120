@@ -38,13 +38,20 @@ def main():
 
         
     #do the live example we did in class: ask user to input an integer, but before you cast it to an int, check that it's an integer before doing your variable = int(variable) command
-    
+    num = input("Enter an int! ")
+    if num.isdigit():
+        num = int(num)
+        print(num)
+
     # last challenge: find out how to check if the string input has the substring "marist"
     #google this one ;) substring is the key google term
     maristStr = input("Put a random string in this variable")
-    if maristStr.len() > 6:
-        for x in range(0, (maristStr.len() - 6)):
-
-    else
+    if maristStr.length() > 6:
+        for x in range(0, (maristStr.length() - 6)):
+            if maristStr[x, x+6: 1] == "Marist":
+                print("The string has the phrase 'Marist' in it!")
+            else:
+                print("The string doesn't have the phrase 'Marist' in it.")
+    else:
         print("The string doesn't have the phrase 'Marist' in it.")
 main()
