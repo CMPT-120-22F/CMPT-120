@@ -29,6 +29,11 @@ def main():
     print(string)
 
 
+def returnFive():
+    return (5)
+
+t = returnFive()
+print(t)
 
 
 

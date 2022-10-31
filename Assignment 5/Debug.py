@@ -15,7 +15,7 @@ def main():
     
     #what about if it's both letters and numbers?
     alphIntInput = input("Enter letters and numbers")
-    if alphIntInput.isalpha:
+    if alphIntInput.isalnum():
         print("Letters and numbers!")
     else:
         print("weird characters :(")
