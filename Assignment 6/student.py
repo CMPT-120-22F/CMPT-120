@@ -32,6 +32,7 @@ class student:
     
     
 def main():
+    #create three students and check if they get free lunch and if they qualify for honors
     
     
 main()
