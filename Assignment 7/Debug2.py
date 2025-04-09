@@ -1,7 +1,3 @@
-#hi don't touch this this isn't done yet!! you can look at it though!
-
-
-
 class BankAccount:
     def __init__(self, balance):
         self.balance = balance
@@ -11,16 +7,17 @@ class BankAccount:
         return ("Successful withdrawal!")
 
     def deposit(self, amount):
-        self.balance = self.balance + amount
+        #how would you add the amount to the current balance?
         return f"Successful Deposit. Balance is now {self.balance}"
 
 class SavingsAccount(BankAccount):
     def __init__(self, balance, interest_rate):
-        super().__init__(balance)
+        #call the super init here, passing in balance as the parameter.
         self.interest_rate = interest_rate
 
     def apply_interest(self):
         self.balance += self.balance * self.interest_rate
+        return("Interest applied to this account.")
 
 class CheckingAccount(BankAccount):
     def __init__(self, balance, overdraft_limit):
@@ -32,16 +29,18 @@ class CheckingAccount(BankAccount):
             self.balance -= amount
             return f"successful transaction. Balance is {self.balance}"
         else:
-            return("unable to process transaction. withdrawal would trigger overdraft limit.")
+            #if we're hitting this else, what happened? What should you tell the user?
+            return("?")
 
 def main():
-    a1 = SavingsAccount(10000,1)
-    a2 = CheckingAccount(100,10)
+    #create a savings account and a checking account with a deposit of $100. Set the interest rate to be .2, set the overdraft limit to be 10.
 
-    print(a2.withdraw(1000))
-    print(a2.withdraw(10))
-    print(a2.deposit(10000))
-    print(a1.withdraw())
+    #apply interest to the savings account
 
+    #withdraw $50 from the checking account.
+    
+    #withdraw $100 from the checking account.
+    
+    #display the balance of each account.
 
 main()
